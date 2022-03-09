@@ -1,0 +1,266 @@
+body{
+	font-family: 'Open Sand', sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+.btn{
+	text-decoration: none;
+	font-family: 'Ubuntu' ,sans-serif;
+	color: white;
+	background: #ffd429;
+	width: 343px;
+	display: block;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+.after-dream{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 12px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	font-family: 'Ubuntu' sans-serif;
+	font-weight: 900;
+}
+}
+.container{
+	margin: 0 auto ;
+	width: 1170px;
+}
+.header{
+	background: #48b4f5;
+	color: white;
+}
+.wrapper{
+	display: flex;
+	item-align: center;
+}
+
+	.logo{
+		padding-top: 65px;
+		padding-left: 265px; 
+	}
+
+	.offer{
+		width: 400px;
+		padding-left: 265px;
+		padding-top: 100px;
+	}
+	.wish{
+		font-size: 27px;
+		width: 500px;
+	}
+	.dream{
+		font-size: 45px;
+	}
+	.planet{
+		padding-left: 10%;
+	}
+
+	.section{
+		color: black;
+	}
+	.secret{
+      text-align: center;
+		font-size: 30px;
+		padding-top: 50px ;
+	}
+	.types{
+		display: flex;
+		justify-content: space-around;
+		padding-top: 30px;
+	}
+	.type{
+		width: 290px;
+	
+
+	}
+.center-text{
+	text-align: center;
+	padding-top: 20px;
+
+	}
+.type img {
+	padding-left:120px;
+}
+.type p {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.section2{
+	background:#ecf3f8;
+}
+
+
+.text-form{
+   text-align: center;
+   padding-top: 30px;
+
+
+}
+input{
+	border: 2px solid #bbbbbb;
+	display: list-item;
+	margin-top: 20px;
+	height:48px;
+	width:322px;
+	border-radius: 5px;
+	padding-left: 20px;
+
+}
+
+.btn-form{
+	cursor: pointer;
+	border: 0;
+	margin-top: 20px;
+	 margin-left: 0;
+	 width: 350px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+footer{
+	color: white;
+	background: #164d7a;
+	padding-top:30px;
+	font-family: 'Open Sans' ;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width:960px;
+
+	}
+	.wish{
+		width: auto;
+	}
+	.planet{
+		width:300px ;
+		height:300px;
+		padding-top: 150px;
+		margin-left: -10px;
+
+	}
+	.offer{
+		padding-bottom:30px ;
+	}
+	.secret{
+		padding-left:325px;
+	}
+	.type img{
+		padding-left: 90px;
+
+
+
+
+	}
+	.type{
+		padding-left:80px ;
+	}
+	.form{
+		padding-left: 325px;
+	}
+
+}
+@media screen and (max-width: 992px){
+	.container{
+		width:720px;
+		padding: 0;
+		margin: 0;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+	.offer{
+		width: auto;
+	}
+	.wish2{
+		width: auto;
+	}
+	.planet{
+		width: 641px;
+		height: 641px;
+		padding-top: 20px;
+		padding-left: 120px;
+	}
+	.type{
+		padding-left: 250px;
+	}
+	.secret{
+		padding-left:200px;
+	}
+	.form{
+		padding-left: 230px;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.container{
+		width:540px;
+	}
+	.planet{
+		width: 400px;
+		height: 400px;
+		padding-left:70px;
+	}
+	.wrapper{
+		display: block;
+	}
+	.logo{
+		padding-top: 20px;
+		padding-left: 20px;
+	}
+	.wish{
+	font-size: 29px;
+	}
+	.offer{
+		margin-left: 30px;
+	}
+	.type{
+		padding-left: 140px;
+
+	}
+	.secret{
+		padding-left:100px ;
+	}
+	.type img{
+		padding-left:120px;
+	}
+	.text-form{
+		padding-left: 40px;
+	}
+	.form{
+		padding-left: 140px;
+	}
+	.btn{
+		margin-left: 90px;
+	
+	}
+	.btn-form{
+		margin-left: 0;
+		margin-top: 20px;
+
+
+	}
+	}
+}
+@media screen and (max-width: 576px){
+	.container{
+		width:100%;
+	}
+	
+}
